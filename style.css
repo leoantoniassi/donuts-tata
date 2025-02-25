@@ -66,14 +66,17 @@ a {
   background-color: #ffdfe7; /* Define a mesma cor do container-fluid */
 }
 .nav-link{
-  padding-left: 10px;
-  margin-top: 10px;
+  padding-left: 15px;
+  margin-top: 15px;
 }
 .navbar-nav .nav-link:hover {
   color: #FDC6D3; /* Cor do texto ao passar o mouse */
   background-color:#f1a5c1 ; /* Cor de fundo ao passar o mouse */
   border-radius: 3%;
   color: black;
+}
+.nav-item{
+  padding-left: 15px;
 }
 .accordion{
   padding: 15px;
@@ -99,6 +102,7 @@ a {
   width: 200px;
   height: 75px;
   border-radius: 5%;
+  transition: all 0.5s ease;
 }
 .logo-donuts:hover{
   scale: 1.1;
