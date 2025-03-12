@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+IN:wght@100&display=swap');
 
 body {
-  background-color: #FEE0EA;
+  background-color: #fff0f5;
   font-family: 'nunito';
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@ body {
 }
 
 .btn-add-to-cart {
-  background-color: #FEE0EA; /* Cor de fundo */
+  background-color: #fff0f5; /* Cor de fundo */
   color: #000; /* Cor do texto */
   border: none; /* Remove a borda padrão */
 }
@@ -68,15 +68,21 @@ a {
 .nav-link{
   padding-left: 15px;
   margin-top: 15px;
+  transition: all 0.5s ease;
 }
 .navbar-nav .nav-link:hover {
   color: #FDC6D3; /* Cor do texto ao passar o mouse */
-  background-color:#f1a5c1 ; /* Cor de fundo ao passar o mouse */
+  background-color:#ffd0e1 ; /* Cor de fundo ao passar o mouse */
   border-radius: 3%;
   color: black;
+  scale: 1.1;
+  border-radius: 3%;
+  transition: 0.5s;
+  /* padding-left: 20px;
+  margin-top: 15px; */
 }
 .nav-item{
-  padding-left: 15px;
+  padding-left: 8px;
 }
 .accordion{
   padding: 15px;
